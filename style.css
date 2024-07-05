@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Inter&display=swap');
+
+
+/* todos os elementos- caso a font n funcione ele vai 
+pegar a  font Arial */
+* {
+    margin: 0;
+    padding:0;
+    list-style: none;
+    box-sizing: border-box; /* indica que o tamanho levara em conta ate  borda*/ 
+    font-family: Arial, Helvetica, sans-serif ;
+
+
+    /* basicamente zeramos tudo 
+    para quando eu precisar usar, eu adciono e não
+    o navegador por padrao */
+}
+
+
+body{
+    font-family: 'Inter';
+    font-size: 18px; /* tamanho de fonte padrao */
+    background-color:#141414;
+    color:#fff;
+}
+.container{
+    width: 100%;
+    margin: auto; /* Pra que fique o meio*/
+    max-width: 1200px;
+    padding:0 20px; 
+}
